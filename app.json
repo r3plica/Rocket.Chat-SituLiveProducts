@@ -1,0 +1,16 @@
+{
+    "id": "5d451e69-4df8-450b-9193-4e6cb09fd833",
+    "version": "0.0.1",
+    "requiredApiVersion": "^1.19.0",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "r3plica",
+        "homepage": "https://github.com/r3plica",
+        "support": "https://github.com/r3plica/Rocket.Chat-SituLiveProducts/Issues"
+    },
+    "name": "SituLive Products",
+    "nameSlug": "situlive-products",
+    "classFile": "SituLiveProductsApp.ts",
+    "description": "Allows linking of products via a GTIN/SituLive Id",
+    "implements": []
+}

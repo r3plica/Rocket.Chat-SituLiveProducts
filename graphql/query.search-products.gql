@@ -1,0 +1,10 @@
+query searchProducts($search: ProductSearchRequestModelInput!) {
+  searchProducts(model: $search) {
+    hasMoreResults
+    total
+    items {
+      id
+      title
+    }
+  }
+}
