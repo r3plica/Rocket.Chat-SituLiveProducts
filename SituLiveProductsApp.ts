@@ -20,6 +20,7 @@ import {
     createContextualBarBlocks,
     SearchProductsCommand,
 } from "./commands/SearchProduct";
+import { TestCommand } from "./lib/TestCommand";
 
 export class SituLiveProductsApp extends App {
     private readonly appLogger: ILogger;
@@ -36,6 +37,9 @@ export class SituLiveProductsApp extends App {
     ): Promise<void> {
         await configuration.slashCommands.provideSlashCommand(
             new SearchProductsCommand(this.appLogger)
+        );
+        await configuration.slashCommands.provideSlashCommand(
+            new TestCommand(this.appLogger)
         );
     }
 
