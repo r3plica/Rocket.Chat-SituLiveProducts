@@ -39,7 +39,7 @@ export class SituLiveProductsApp extends App {
             new SearchProductsCommand(this.appLogger)
         );
         await configuration.slashCommands.provideSlashCommand(
-            new TestCommand(this.appLogger)
+            new TestCommand()
         );
     }
 

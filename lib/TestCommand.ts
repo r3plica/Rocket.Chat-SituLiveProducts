@@ -1,4 +1,5 @@
 import {
+    IHttp,
     IModify,
     IPersistence,
     IRead,

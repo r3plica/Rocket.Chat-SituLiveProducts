@@ -17,6 +17,6 @@ const QUERY_PRODUCTS = gql(
 
 export function searchProducts(id) {
     const params = {};
-    const { loading, data } = useQuery(QUERY_PRODUCTS, params);
-    return data;
+    //const { loading, data } = useQuery(QUERY_PRODUCTS, params);
+    //return data;
 }
